@@ -102,7 +102,7 @@ input[type="radio"] {
 </head>
 <body>
     <h1>Inscription des étudiants</h1>
-    <form method="Post" action="api/Inscription">
+    <form method="POST" action="Inscription.php">
         <table>
             <tr>
                 <td>Numéro d'inscription : <input type="number" name="ins" id="insID"></td>
