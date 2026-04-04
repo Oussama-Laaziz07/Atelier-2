@@ -124,8 +124,8 @@ input[type="radio"] {
             </tr>
             <tr>
                 <td>
-                    Sexe : <input type="radio" name="gender" value="Garçon" id="genderID">
-                           <input type="radio" name="gender" value="Fille" id="genderID">
+                    Sexe : <input type="radio" name="gender" value="Garçon" id="genderID">Garçon
+                           <input type="radio" name="gender" value="Fille" id="genderID">Fille
                 </td>
             </tr>
             <tr>

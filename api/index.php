@@ -98,12 +98,12 @@
             <p>Découvrez les exercices de la première partie.</p>
             <a href="api/partie1">Voir l'atelier</a>
         </div>
-    </div>
-    <div class="card">
+        <div class="card">
             <h2>Atelier 2</h2>
             <p>La Création d'un inscription Web</p>
             <a href="api/Inscription">Voir l'atelier</a>
         </div>
+    </div>
     <div class="portfolio">
         <h2>Oussama Laaziz</h2>
         <p>Stagiaire de Première année Développement Digital</p>
