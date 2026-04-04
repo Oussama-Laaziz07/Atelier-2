@@ -98,12 +98,12 @@
         <div class="card">
             <h2>Atelier 1</h2>
             <p>Découvrez les exercices de la première partie.</p>
-            <a href="api/partie1.html">Voir l'atelier</a>
+            <a href="api/partie1">Voir l'atelier</a>
         </div>
         <div class="card">
             <h2>Atelier 2</h2>
             <p>La création d'une inscription Web.</p>
-            <a href="api/inscription.php">Voir l'atelier</a>
+            <a href="api/inscription">Voir l'atelier</a>
         </div>
     </div>
     <div class="portfolio">
