@@ -103,7 +103,7 @@
         <div class="card">
             <h2>Atelier 2</h2>
             <p>La création d'une inscription Web.</p>
-            <a href="api/inscription">Voir l'atelier</a>
+            <a href="api/Inscription">Voir l'atelier</a>
         </div>
     </div>
     <div class="portfolio">
