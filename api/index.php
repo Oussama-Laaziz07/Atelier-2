@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
@@ -18,7 +18,9 @@
         .card-container {
             display: flex;
             justify-content: center;
+            gap: 20px;
             margin-top: 40px;
+            flex-wrap: wrap; /* ✅ Responsive */
         }
         .card {
             background: #fff;
@@ -91,17 +93,17 @@
     </style>
 </head>
 <body>
-    <h1>Welcome To My Portfilio</h1>
+    <h1>Welcome To My Portfolio</h1>
     <div class="card-container">
         <div class="card">
             <h2>Atelier 1</h2>
             <p>Découvrez les exercices de la première partie.</p>
-            <a href="api/partie1">Voir l'atelier</a>
+            <a href="api/partie1.html">Voir l'atelier</a>
         </div>
         <div class="card">
             <h2>Atelier 2</h2>
-            <p>La Création d'un inscription Web</p>
-            <a href="api/Inscription">Voir l'atelier</a>
+            <p>La création d'une inscription Web.</p>
+            <a href="api/inscription.php">Voir l'atelier</a>
         </div>
     </div>
     <div class="portfolio">
