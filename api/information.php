@@ -1,5 +1,5 @@
 <?php
-    if (!empty($_POST["env"])) {
+    if (!empty($_POST)) {
     $num_ins = $_POST["ins"];
     $nom = $_POST["nom"];
     $ville = $_POST["ville"];
