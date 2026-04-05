@@ -101,7 +101,7 @@ input[type="radio"] {
 </head>
 <body>
     <h1>Inscription des étudiants</h1>
-    <form method="POST" action="https://atelier-2-omega.vercel.app/api/information.php">
+    <form method="post" action="information.php">
         <table>
             <tr>
                 <td>Numéro d'inscription : <input type="number" name="ins" id="insID"></td>
