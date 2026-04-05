@@ -97,7 +97,6 @@ input[type="reset"]:hover {
 input[type="radio"] {
     margin-left: 10px;
 }
-
     </style>
 </head>
 <body>
@@ -135,7 +134,7 @@ input[type="radio"] {
                 <td>Informations complémentaires : <input type="text" name="info" id="infoID"></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Envoyer"></td>
+                <td><input type="submit" value="Envoyer" name="env"></td>
                 <td><input type="reset" value="Reinitialiser"></td>
             </tr>
         </table>

@@ -1,5 +1,5 @@
 <?php
-if (!empty($_POST)) {
+    if (!empty($_POST["env"])) {
     $num_ins = $_POST["ins"];
     $nom = $_POST["nom"];
     $ville = $_POST["ville"];
@@ -17,4 +17,4 @@ if (!empty($_POST)) {
     echo "<tr><td>Informations complémentaires : " . $infor . "</td></tr>";
     echo "</table>";
 }
-?>
+    ?>
