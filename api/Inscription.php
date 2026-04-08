@@ -101,7 +101,7 @@ input[type="radio"] {
 </head>
 <body>
     <h1>Inscription des étudiants</h1>
-    <form method="post" action="information.php">
+    <form method="POST" action="inscription.php">
         <table>
             <tr>
                 <td>Numéro d'inscription : <input type="number" name="ins" id="insID"></td>
@@ -139,5 +139,25 @@ input[type="radio"] {
             </tr>
         </table>
     </form>
+    <?php
+    if (!empty($_POST["action1"])) {
+    $num_ins = $_POST["ins"];
+    $nom = $_POST["nom"];
+    $ville = $_POST["ville"];
+    $date_nais = $_POST["ddn"];
+    $gender = $_POST["gender"];
+    $loisirs = $_POST["hobbies"];
+    $infor = $_POST["info"]; 
+    echo "<table border='1' width='100%' rules='all' style='border-color:red;'>";
+    echo "<tr><td>Numéro d'inscription : " . $num_ins . "</td></tr>";
+    echo "<tr><td>Nom et prénom : " . $nom . "</td></tr>";
+    echo "<tr><td>Ville : " . $ville . "</td></tr>";
+    echo "<tr><td>Date de naissance : " . $date_nais . "</td></tr>";
+    echo "<tr><td>Sexe : " . $gender . "</td></tr>";
+    echo "<tr><td>Loisirs : " . $loisirs . "</td></tr>";
+    echo "<tr><td>Informations complémentaires : " . $infor . "</td></tr>";
+    echo "</table>";
+}
+    ?>
 </body>
 </html>
