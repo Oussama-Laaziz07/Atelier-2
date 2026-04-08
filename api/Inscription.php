@@ -101,7 +101,7 @@ input[type="radio"] {
 </head>
 <body>
     <h1>Inscription des étudiants</h1>
-    <form method="get" action="information.php">
+    <form method="post" action="information.php">
         <table>
             <tr>
                 <td>Numéro d'inscription : <input type="number" name="ins" id="insID"></td>
@@ -134,7 +134,7 @@ input[type="radio"] {
                 <td>Informations complémentaires : <input type="text" name="info" id="infoID"></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Envoyer"></td>
+                <td><input type="submit"name="action1" value="Envoyer"></td>
                 <td><input type="reset" value="Reinitialiser"></td>
             </tr>
         </table>
